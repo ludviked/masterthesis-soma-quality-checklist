@@ -44,3 +44,11 @@ The `search-screening/` folder contains documentation of the literature search a
 ## Notes
 
 The data used in this thesis consist of published second-order meta-analyses and publicly available information from scholarly publications. No personal data or individual-level participant data were collected, stored, or analysed.
+
+## License
+
+The materials in this repository are licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0). Reuse and adaptation are permitted with appropriate attribution.
+
+Suggested citation:
+
+Edvardsen, L., Scherer, R., & Emslander, V. (2026). *SOMA Quality Checklist: Supplementary materials for “Doing Meta-Meta Right: Developing and Evaluating a Checklist for Assessing the Quality of Second-Order Meta-Analyses”*. GitHub. https://github.com/Ludviked/MasterThesis-SOMA-Quality-Checklist

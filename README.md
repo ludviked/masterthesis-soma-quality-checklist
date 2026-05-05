@@ -1,6 +1,6 @@
 # MasterThesis-SOMA-Quality-Checklist
 
-This repository contains materials, data, documentation, and R code for the master thesis:
+This repository contains materials, documentation, and R code for the master thesis:
 
 **Doing Meta-Meta Right: Developing and Evaluating a Checklist for Assessing the Quality of Second-Order Meta-Analyses**
 
@@ -8,27 +8,22 @@ This repository contains materials, data, documentation, and R code for the mast
 
 The thesis developed and evaluated the SOMA Quality Checklist, a 25-item checklist for assessing the methodological quality of second-order meta-analyses (SOMAs), also referred to as meta-meta-analyses. The checklist was applied to a corpus of 79 published SOMAs.
 
-This repository provides the materials needed to understand the checklist, reproduce the analyses, and document the literature search and screening process.
+This repository provides the materials needed to understand the checklist, document the analytic workflow, and document the literature search and screening process.
 
 ## Repository structure
 
 - `code/` contains the R script used for data preparation, descriptive analyses, exploratory factor analyses, latent class analyses, network analysis, and figure generation.
-- `data/` contains the input dataset used by the R script and the final data files used for reporting.
+- `data/` contains a README explaining why the thesis-specific analysis dataset is not publicly available at this stage.
 - `materials/` contains the final SOMA Quality Checklist, the accompanying codebook, and the practical coding sheet for researchers.
 - `search-screening/` contains PRISMA flowcharts and search/screening documentation.
-- `results/` can be used to store generated figures and tables.
 
 ## Main analysis script
 
 The main analysis script is:
 
-`code/SOMA_Master_coding_Final.R`
+`code/SOMA_Master_Analysis.R`
 
-The script imports the analysis dataset from:
-
-`data/SOMA-Data_Descriptives_Import.xlsx`
-
-To reproduce the analyses, download or clone the repository, set the working directory to the repository root, and run the script in the `code/` folder. Required R packages are loaded at the beginning of the script.
+The script requires the thesis-specific analysis dataset. This dataset is not publicly available at this stage because the broader SR-SOMA dataset is currently under embargo. The dataset can be made available to thesis evaluators upon request or through restricted access.
 
 ## Materials
 
@@ -40,9 +35,7 @@ The `materials/` folder contains:
 
 ## Data
 
-The `data/` folder contains the dataset used for the analyses and final thesis reporting. The main input file used by the R script is:
-
-`SOMA-Data_Descriptives_Import.xlsx`
+The thesis-specific dataset used for the analyses is not publicly available at this stage because the broader SR-SOMA dataset is currently under embargo. The public repository therefore includes the analytic code and supplementary materials, but not the underlying thesis dataset.
 
 ## Search and screening documentation
 
